@@ -44,7 +44,7 @@ with open(file_path, 'r') as pybank_csv:
 
 path="PyBank/analysis/main.txt"
 
-file1=open(path,"r+")
+file1=open(path,"w")
 
 file1.write("Financial Analysis \n\n")
 
